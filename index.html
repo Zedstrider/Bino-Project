@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bino Link Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Bino Link Gen</h1>
+        <p>Generate magic WhatsApp links & QR codes for instant Bino searches.</p>
+        
+        <input type="text" id="query" placeholder="E.g., Best pizza in Indiranagar">
+        <button id="generateBtn">Generate Link</button>
+        
+        <div id="output">
+            <div id="qrcode"></div>
+            <p class="share-text">Share this magic link:</p>
+            <a id="link" class="link-box" href="#" target="_blank"></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
